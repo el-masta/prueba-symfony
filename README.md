@@ -22,3 +22,6 @@ Recuerda editar el archivo **env** para sustituir el USUARIO y PASWWORD de tu ba
 
 Y renombrarlo a **.env**
 
+## Notas
+
+La prueba está hecha sobre PHP verson 7.4.4, no la he probado en versiones anteriores.
