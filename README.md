@@ -5,7 +5,7 @@
 
 Es una prueba de programación, con el BackEnd y API en Symfony, y el Frontend con Vue
 
-Se trata de recuperar de datos desde MySQL y mostrarlos en forma de lista dinámica.
+Se trata de recuperar datos desde MySQL y mostrarlos en forma de lista dinámica.
 
 ## Vista previa
 
