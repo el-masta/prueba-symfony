@@ -6,10 +6,11 @@ use App\Repository\MaterialRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Response;
 
 class MaterialController extends ApiController
 {
-   //Devuelve los datos
+   //Devuelve todos los datos
     /**
     * @Route("/material", methods="GET")
     */
@@ -19,15 +20,6 @@ class MaterialController extends ApiController
 
         return $this->respond($materiales);
     }
+    
 
-    //Devuelve la vista
-    /**
-    * @Route("/")
-    */
-    public function indexView(MaterialRepository $materialRepository)
-    {
-        $materiales = $materialRepository->transformAll();
-
-        return $this->respond($materiales);
-    }
 }

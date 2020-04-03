@@ -37,7 +37,7 @@ class Material
     private $venta_mes;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string", length=3)
      */
     private $mes;
 
@@ -104,12 +104,12 @@ class Material
         return $this;
     }
 
-    public function getMes(): ?int
+    public function getMes(): ?string
     {
         return $this->mes;
     }
 
-    public function setMes(int $mes): self
+    public function setMes(string $mes): self
     {
         $this->mes = $mes;
 

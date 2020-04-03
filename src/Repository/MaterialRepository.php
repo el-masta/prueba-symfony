@@ -27,9 +27,11 @@ class MaterialRepository extends ServiceEntityRepository
                 'material' => (string) $material->getMaterial(),
                 'marca' => (string) $material->getMarca(),
                 'venta_mes' => (int) $material->getVentaMes(),
-                'mes' => (int) $material->getMes(),
+                'mes' => (string) $material->getMes(),
                 'precio_compra' => (float) $material->getPrecioCompra(),
                 'precio_venta' => (float) $material->getPrecioVenta(),
+                'esVisible' => (bool) true,
+                'utilidad' => (float) $material->getPrecioVenta()-$material->getPrecioCompra(),
         ];
     }
     
