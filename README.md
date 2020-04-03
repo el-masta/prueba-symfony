@@ -24,4 +24,4 @@ Y renombrarlo a **.env**
 
 ## Notas
 
-La prueba está hecha sobre PHP verson 7.4.4, no la he probado en versiones anteriores.
+La prueba está hecha sobre PHP verson 7.4.4, no la he ejecutado en versiones anteriores.
